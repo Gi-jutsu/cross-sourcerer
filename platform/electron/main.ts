@@ -9,6 +9,8 @@ async function createWindow(): Promise<void> {
     width: 800,
   })
 
+  mainWindow.setTitle('My Sourcerer')
+
   if (process.env.NODE_ENV === 'production') {
     const indexPath = path.join(process.cwd(), '.next-dist/index.html')
 
