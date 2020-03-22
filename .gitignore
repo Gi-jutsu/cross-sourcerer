@@ -1,0 +1,5 @@
+.electron-dist
+.next
+.env
+.idea
+node_modules
